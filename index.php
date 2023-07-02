@@ -60,6 +60,7 @@
                 <th>Email</th>
                 <th>direccion_id</th>
                 <th>Archivo_id</th>
+               <!-- <th>nombre Archivo</th>-->
             </tr>
         </thead>
         <tbody>
