@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/customCss/styles.css">
     <title>Tu proyecto</title>
 
     <!-- Enlaza los archivos de los estilos y scripts -->
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="CSS/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/responsiveDatatables/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="CSS/customCss/styles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/responsiveDatatables/jquery.dataTables.min.css">
       <!-- Enlaza el archivo CSS de la extensión Responsive -->
-    <link rel="stylesheet" href="responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/responsiveDatatables/responsive.min.css">
    
    
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -25,7 +24,7 @@
     <script src="node_modules/pdfmake/build/vfs_fonts.js"></script>
     <script src="node_modules/datatables.net-buttons/js/buttons.print.min.js"></script>
      <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
-    <script src="responsive.min.js"></script>
+    <script src="CSS/responsiveDatatables/responsive.min.js"></script>
     
     
    
@@ -61,7 +60,6 @@
                 <th>Email</th>
                 <th>direccion_id</th>
                 <th>Archivo_id</th>
-               <!-- <th>nombre Archivo</th>-->
             </tr>
         </thead>
         <tbody>
