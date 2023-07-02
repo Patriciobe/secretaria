@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Tu proyecto</title>
 
     <!-- Enlaza los archivos de los estilos y scripts -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/datatables.net-dt/css/jquery.dataTables.min.css">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="CSS/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/responsiveDatatables/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="CSS/customCss/styles.css">
       <!-- Enlaza el archivo CSS de la extensión Responsive -->
-    <link rel="stylesheet" type="text/css" href="responsive.min.css">
+    <link rel="stylesheet" href="responsive.min.css">
    
    
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
