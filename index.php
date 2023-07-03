@@ -18,19 +18,7 @@
 
 
 
-    <!-- SCRIPTS JS /////////////////////////////////////////////////////////////////////////-->
-    <script src="JS/jquery.min.js"></script>
-    <script src="JS/popper/popper.min.js"></script> 
-    <script src="JS/bootstrap.min.js"></script> 
-    <script src="JS/jquery.dataTables.min.js"></script>
-    <script src="JS/dataTables.buttons.min.js"></script>
-    <script src="JS/buttons.html5.min.js"></script>
-    <script src="node_modules/pdfmake/build/pdfmake.min.js"></script> 
-    <script src="node_modules/pdfmake/build/vfs_fonts.js"></script>  
-    <script src="JS/buttons.print.min.js"></script>
-     <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
-    <script src="CSS/responsiveDatatables/responsive.min.js"></script>
-     <!--///////////////////////////////////////////////////////////////////////////////////// -->
+
 </head>
 
 <!-- BODY ///////////////////////////////////////////////////////////////////////////////////////// -->
@@ -70,37 +58,7 @@
   </form>
 </div>
 <!-- Inicializa DataTables con responsividad de columnas -->
-<script>
-$(document).ready(function() {
-  var tabla = $('#miTabla').DataTable({
-    paging: true,
-    searching: true,
-    ordering: true,
-    autoWidth: false, // Deshabilita el ajuste automático del ancho de las columnas
-    responsive: true, // Habilita la responsividad de las columnas
-    columnDefs: [
-      { responsivePriority: 1, targets: 0 }, // Prioriza la primera columna en la responsividad
-      { responsivePriority: 2, targets: -1 } // Prioriza la última columna en la responsividad
-    ],
-    dom: 'Bfrtip',
-    buttons: [
-      'copy', 'csv', 'excel', 'pdf', 'print'
-    ]
-  });
 
-  $('#miTabla tbody').on('click', 'tr', function() {
-    if ($(this).hasClass('resaltada')) {
-      $(this).removeClass('resaltada');
-    } else {
-      tabla.$('tr.resaltada').removeClass('resaltada');
-      $(this).addClass('resaltada');
-      var rowData = tabla.row(this).data();
-      //$('#datos').text(JSON.stringify(rowData));
-      $("#desc").val(rowData[1]); 
-    }
-  });
-});
-</script>
 
 
     <div id ="dropzonejs">
@@ -114,7 +72,22 @@ $(document).ready(function() {
     
         
 
+    <!-- SCRIPTS JS /////////////////////////////////////////////////////////////////////////-->
     
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/popper/popper.min.js"></script> 
+    <script src="JS/bootstrap.min.js"></script> 
+    <script src="JS/jquery.dataTables.min.js"></script>
+    <script src="JS/dataTables.buttons.min.js"></script>
+    <script src="JS/buttons.html5.min.js"></script>
+    <script src="node_modules/pdfmake/build/pdfmake.min.js"></script> 
+    <script src="node_modules/pdfmake/build/vfs_fonts.js"></script>  
+    <script src="JS/buttons.print.min.js"></script>
+     <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
+    <script src="CSS/responsiveDatatables/responsive.min.js"></script>
+    
+    <script src="JS/customJS/data_Tables.js"></script>
+     <!--///////////////////////////////////////////////////////////////////////////////////// -->    
     </body>
     
 </html>
