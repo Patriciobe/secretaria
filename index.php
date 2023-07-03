@@ -19,15 +19,15 @@
 
 
     <!-- SCRIPTS JS /////////////////////////////////////////////////////////////////////////-->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="popper/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
-    <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="node_modules/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-    <script src="node_modules/datatables.net-buttons/js/buttons.html5.min.js"></script>
-    <script src="node_modules/pdfmake/build/pdfmake.min.js"></script>
-    <script src="node_modules/pdfmake/build/vfs_fonts.js"></script>
-    <script src="node_modules/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <!-- <script src="JS/popper.min.js"></script> -->
+    <script src="JS/bootstrap.min.js"></script> 
+    <script src="JS/jquery.dataTables.min.js"></script>
+    <script src="JS/dataTables.buttons.min.js"></script>
+    <script src="JS/buttons.html5.min.js"></script>
+    <!-- <script src="node_modules/pdfmake/build/pdfmake.min.js"></script>  -->
+    <script src="node_modules/pdfmake/build/vfs_fonts.js"></script> 
+    <script src="JS/buttons.print.min.js"></script>
      <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
     <script src="CSS/responsiveDatatables/responsive.min.js"></script>
      <!--///////////////////////////////////////////////////////////////////////////////////// -->
