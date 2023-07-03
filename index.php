@@ -25,8 +25,8 @@
     <script src="JS/jquery.dataTables.min.js"></script>
     <script src="JS/dataTables.buttons.min.js"></script>
     <script src="JS/buttons.html5.min.js"></script>
-    <!-- <script src="node_modules/pdfmake/build/pdfmake.min.js"></script>  -->
-    <!-- <script src="node_modules/pdfmake/build/vfs_fonts.js"></script>  -->
+    <script src="node_modules/pdfmake/build/pdfmake.min.js"></script> 
+    <script src="node_modules/pdfmake/build/vfs_fonts.js"></script>  
     <script src="JS/buttons.print.min.js"></script>
      <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
     <script src="CSS/responsiveDatatables/responsive.min.js"></script>
@@ -36,9 +36,13 @@
 <!-- BODY ///////////////////////////////////////////////////////////////////////////////////////// -->
 <body>
 
+
+
 <div>
      <?php include_once 'views/head.php'; ?> 
 </div>
+
+
 
 <div class="datatables">
      <?php include_once 'views/tabla.php'?>
