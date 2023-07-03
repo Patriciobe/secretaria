@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="CSS/customCss/styles.css">
     <title>Tu proyecto</title>
 
+    <!-- STYLES TEXTT CSS ////////////////////////////////////////////////////////////////// -->
     <!-- Enlaza los archivos de los estilos y scripts -->
     <link rel="stylesheet" href="CSS/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/responsiveDatatables/jquery.dataTables.min.css">
       <!-- Enlaza el archivo CSS de la extensión Responsive -->
     <link rel="stylesheet" type="text/css" href="CSS/responsiveDatatables/responsive.min.css">
-   
-   
+    <!--///////////////////////////////////////////////////////////////////////////////////// -->
+  
+
+
+
+    <!-- SCRIPTS JS /////////////////////////////////////////////////////////////////////////-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="popper/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
     <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="node_modules/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
     <script src="node_modules/datatables.net-buttons/js/buttons.html5.min.js"></script>
@@ -25,7 +30,7 @@
     <script src="node_modules/datatables.net-buttons/js/buttons.print.min.js"></script>
      <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
     <script src="CSS/responsiveDatatables/responsive.min.js"></script>
-    
+     <!--///////////////////////////////////////////////////////////////////////////////////// -->
     
    
    
