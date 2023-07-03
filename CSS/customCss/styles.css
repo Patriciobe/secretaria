@@ -29,8 +29,11 @@
   text-align: center;
 }
 
-.body{
-  box-sizing: border-box;
+
+body {
+  cursor: pointer;
 }
 
-
+.resaltada {
+  background-color: yellow !important; 
+}
