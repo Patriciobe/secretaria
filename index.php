@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="CSS/responsiveDatatables/jquery.dataTables.min.css">
       <!-- Enlaza el archivo CSS de la extensión Responsive -->
     <link rel="stylesheet" type="text/css" href="CSS/responsiveDatatables/responsive.min.css">
+
+    <link rel="stylesheet" href="dropzonejs/CSS/basic.css">
+    <link rel="stylesheet" href="dropzonejs/CSS/styles.css">
     <!--///////////////////////////////////////////////////////////////////////////////////// -->
   
 
@@ -38,8 +41,31 @@
 
 
     <div id="datos"></div>
+
+
 <div id="form">
-    <?php include_once 'views/form.php'?>
+  <form action="upload.php" class="dropzone" id="myDropzone">
+
+    <div>
+      <div>
+      <label for="file-name">Nombre del archivo:</label>
+      </div>
+      <input type="text" id="file-name" name="file-name" placeholder="Ingrese un nombre">
+    </div>
+
+    <div>
+      <div>
+      <label for="desc">Descripción:</label>
+      </div>
+      <input type="text" id="desc" name="desc" placeholder="Ingrese una descripción">
+    </div>
+    <div class="dz-message">
+      Arrastra y suelta los archivos aquí o haz clic para seleccionar archivos.
+    </div>
+  
+  </form>
+
+  
 </div>
 <!-- Inicializa DataTables con responsividad de columnas -->
 
@@ -69,6 +95,8 @@
     <script src="JS/buttons.print.min.js"></script>
      <!-- Enlaza el archivo JavaScript de la extensión Responsive -->
     <script src="CSS/responsiveDatatables/responsive.min.js"></script>
+    <script src="dropzonejs/JS/dropzone-min.js"></script>
+    <script src="dropzonejs/JS/app.js"></script>
     
     <script src="JS/customJS/data_Tables.js"></script>
      <!--///////////////////////////////////////////////////////////////////////////////////// -->    
